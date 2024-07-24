@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Resume from '../../assets/Resume.pdf'
 import Zip from '../../assets/Letters.zip'
 import Transcript from '../../assets/Transcript.pdf'
+import App from '../../App';
 
 function Me () {
    return (
@@ -35,13 +36,13 @@ function Me () {
                <th rowSpan={7} className='center-align'>
                   Download documents: <br></br><br></br>
                   <a href={Resume} download="Kuljeet Singh Bhengura - Resume" target='_blank'>
-                     <Button className='download-button'>Download Resume</Button>
+                     <Button className='download-button' onClick={() => App.handleClick("Downloaded Resume")}>Download Resume</Button>
                   </a><br></br><br></br>
                   <a href={Transcript} download="Transcript" target='_blank'>
-                     <Button className='download-button'>Download Unofficial Transcript</Button>
+                     <Button className='download-button' onClick={() => App.handleClick("Downloaded Transcripts")}>Download Unofficial Transcript</Button>
                   </a><br></br><br></br>
                   <a href={Zip} download="Experience Letters" target='_blank'>
-                     <Button className='download-button'>Download Experience letters</Button>
+                     <Button className='download-button' onClick={() => App.handleClick("Download experience letters")}>Download Experience letters</Button>
                   </a>
                </th>
             </tr>

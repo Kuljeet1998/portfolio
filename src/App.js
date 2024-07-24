@@ -1,6 +1,6 @@
 import './App.css';
 import profile from './assets/Profile.jpeg';
-import React, {useState, useRef} from "react";
+import React, {useState, useEffect} from "react";
 import IntroVideo from './assets/intro.mp4'
 import BgVideo from './assets/videoplayback.mp4'
 import { FaGithub } from "react-icons/fa";
@@ -14,8 +14,23 @@ import Me from './components/me/me';
 import InTouch from './components/inTouch/inTouch';
 import Button from 'react-bootstrap/Button';
 import {FaArrowCircleUp} from 'react-icons/fa'; 
+import ReactGA from 'react-ga4';
+ReactGA.initialize('G-CYTV8YC2S6');
+
 
 function App() {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
+  const handleButtonClick = (label) => {
+    ReactGA.event({
+      category: 'User',
+      action: 'Clicked a button',
+      label: label
+    });
+  };
+  
   const [colorChange, setColorchange] = useState(false);
     
     const changeNavbarColor = () => {
