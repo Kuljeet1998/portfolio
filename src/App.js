@@ -85,6 +85,7 @@ function App() {
             src={IntroVideo}
             playing
             poster = {profile}
+            title = "Kuljeet Singh Bhengura"
             type="video/mp4" />
           <p className='font-bold'>
             Goal in life: Make society better place with the help of technology.
@@ -108,8 +109,8 @@ function App() {
               <FaGithub />
             </a>
             <span>  </span>
-            <CopyToClipboardButton text="kbhengura@gmail.com" icon="email" /><span>  </span>
-            <CopyToClipboardButton text="+15713318626" icon="phone" />
+            <CopyToClipboardButton text="kbhengura@gmail.com" icon="email" type="Email"/><span>  </span>
+            <CopyToClipboardButton text="+15713318626" icon="phone" type="Phone no."/>
           </div>
       
         </header>

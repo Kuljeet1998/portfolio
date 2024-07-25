@@ -22,16 +22,20 @@ function Tech () {
          <table className='tech-table'>
             <tr>
                <td className='tech-table tech-td'>
-                  <img src={Python}></img>
+                  <img src={Python}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={Java}></img>
+                  <img src={Java}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={JavaScript}></img>
+                  <img src={JavaScript}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={HtmlCss}></img>
+                  <img src={HtmlCss}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
             </tr>
             <tr>
@@ -69,16 +73,20 @@ function Tech () {
             </tr><br></br><br></br>
             <tr>
                <td className='tech-table tech-td'>
-                  <img src={GIT}></img>
+                  <img src={GIT}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={MySQL}></img>
+                  <img src={MySQL}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={postgresql}></img>
+                  <img src={postgresql}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={AWS}></img>
+                  <img src={AWS}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
             </tr>
             <tr>
@@ -117,16 +125,20 @@ function Tech () {
             </tr><br></br><br></br>
             <tr>
                <td className='tech-table tech-td'>
-                  <img src={docker}></img>
+                  <img src={docker}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={jenkins}></img>
+                  <img src={jenkins}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={node}></img>
+                  <img src={node}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
                <td className='tech-table tech-td'>
-                  <img src={react}></img>
+                  <img src={react}
+                  alt="Kuljeet Singh Bhengura"></img>
                </td>
             </tr>
             <tr>

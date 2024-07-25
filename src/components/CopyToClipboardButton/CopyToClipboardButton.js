@@ -3,11 +3,11 @@ import { MdEmail } from "react-icons/md";
 import './CopyToClipboardButton.css'
 import { FaPhoneAlt } from "react-icons/fa";
 
-export default function CopyToClipboardButton ({ text, icon}) {
+export default function CopyToClipboardButton ({ text, icon, type}) {
    const copyToClipboard = () => {
      navigator.clipboard.writeText(text)
        .then(() => {
-         alert('Text copied to clipboard!');
+         alert(`${type} copied to clipboard!`);
        })
        .catch((err) => {
          console.error('Unable to copy text to clipboard:', err);

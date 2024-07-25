@@ -1,6 +1,9 @@
 import React, { FC } from 'react';
 import { InlineWidget } from "react-calendly";
 import './inTouch.css'
+import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
 
 function InTouch () {
    const ColoredLine = ({ color, wid }) => (
@@ -42,6 +45,42 @@ function InTouch () {
          </table>
          <br></br><ColoredLine color="purple" wid="80%"/>
          <h4>Copyright © 2024 Kuljeet Singh Bhengura. All rights reserved.</h4>
+         <a
+              className="link"
+              href="https://www.linkedin.com/in/kuljeet-singh-bhengura/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CiLinkedin size={21} />
+            </a>
+            <span>  </span>
+            <a
+              className="link"
+              href="https://github.com/Kuljeet1998"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={20} />
+            </a>
+            <span>  </span>
+         <a
+              className="link"
+              href="https://www.instagram.com/cristianokuljeet/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram size={20} />
+         </a><span>  </span>
+         <a
+              className="link"
+              href="https://www.facebook.com/kuljeetsingh.bhengura/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook size={20} />
+         </a>
+         <br></br><br></br>
+
          Developed by Kuljeet with "❤️"<br></br><br></br><br></br><br></br>
       </div>
    )

@@ -13,7 +13,7 @@ function Me () {
       <div>
          <table className='align-about-me'>
             <tr>
-               <th className='section top-align' rowSpan={11}><img className='round-img' src={profile}></img></th>
+               <th className='section top-align' rowSpan={11}><img className='round-img' src={profile} alt="Kuljeet Singh Bhengura"></img></th>
                <th className='pad-align' colSpan={2}>About Me</th>
             </tr>
             <tr>
