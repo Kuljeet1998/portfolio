@@ -4,6 +4,7 @@ import './inTouch.css'
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import { FaSpotify } from "react-icons/fa6";
 
 function InTouch () {
    const ColoredLine = ({ color, wid }) => (
@@ -30,7 +31,7 @@ function InTouch () {
                call me on my <span style={{color:'rgb(168, 168, 238)'}}> cellphone.</span></span></h1>
                </td>
                <td>
-               <h1>Schedule a <span style={{color:'rgb(168, 168, 238)'}}> meeting</span> with me</h1>
+               <h1 color='red'>Schedule a <span style={{color:'rgb(168, 168, 238)'}}> meeting</span> with me</h1>
                <div>
                   <InlineWidget
                   styles={{
@@ -78,6 +79,14 @@ function InTouch () {
               rel="noopener noreferrer"
             >
               <FaFacebook size={20} />
+         </a><span>  </span>
+         <a
+              className="link"
+              href="https://open.spotify.com/user/cq3wc3doq1a4sxp8z5e1r9k2r"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSpotify size={20} />
          </a>
          <br></br><br></br>
 
