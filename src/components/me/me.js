@@ -3,8 +3,6 @@ import profile from '../../assets/Profile.jpeg'
 import './me.css'
 import Button from 'react-bootstrap/Button';
 import Resume from '../../assets/Resume.pdf'
-import Zip from '../../assets/Letters.zip'
-import Transcript from '../../assets/Transcripts.pdf'
 
 function Me () {
    return (
@@ -16,8 +14,8 @@ function Me () {
             </tr>
             <tr>
                <td className='pursue pad-align' colSpan={2}> 
-                  I have more than two years of experience as a software developer and 
-                  a masters degree in Computer Science from George Mason University. 
+                  I have 5+ years of experience as a software developer and 
+                  a Masters degree in Computer Science from George Mason University. 
                   I have worked extensively with a range of technologies, 
                   specializing in Django, ReactJS, NodeJS, and MySQL. My proficiency 
                   extends to AWS, where I have successfully deployed live projects 
@@ -35,12 +33,6 @@ function Me () {
                   Download documents: <br></br><br></br>
                   <a href={Resume} download="Kuljeet Singh Bhengura - Resume" target='_blank'>
                      <Button className='download-button'>Download Resume</Button>
-                  </a><br></br><br></br>
-                  <a href={Transcript} download="Transcript" target='_blank'>
-                     <Button className='download-button'>Download Official Transcript</Button>
-                  </a><br></br><br></br>
-                  <a href={Zip} download="Experience Letters" target='_blank'>
-                     <Button className='download-button'>Download Experience letters</Button>
                   </a>
                </th>
             </tr>
@@ -48,7 +40,7 @@ function Me () {
                <td className='pad-align-2 font-important'>Address:</td>
             </tr>
             <tr>
-               <td className='pad-align-2'>4125 Locust Ln.<br></br>Fairfax, VA 22030</td>
+               <td className='pad-align-2'>Fairfax, VA 22030</td>
             </tr>
             <tr>
                <td className='pad-align-2 font-important'>Phone:</td>

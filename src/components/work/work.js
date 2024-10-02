@@ -206,6 +206,41 @@ function Work () {
 
 
 
+
+            <tr>
+               <th></th>
+               <th className='arrange'>Loyal Medi Opthotech</th>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='pursue arrange'>Software Developer • <span className='graduation'>Aug 2017 – July 2020</span></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>•  Spearheaded the development of 
+                  <span className='font-important'> EMR Software</span> for 
+                  Ophthalmic clinics and hospitals across Maharashtra, leading a cross-functional 
+                  team of 5 developers.
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Drove adoption across 
+               <span className='font-important'> 50+ clinics and hospitals, </span> 
+                  improving efficiency by 35% and enhancing patient care quality, 
+                  resulting in a 20% increase in patient satisfaction.
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td className='arrange sub-point'>• Implemented AI to predict eye lens focal 
+               length with 95% accuracy and streamline patient inquiries, improving efficiency by 72%.
+               </td>
+            </tr><br></br><br></br>
+            
+
+
+
             <tr>
                <th></th>
                <th className='arrange'>Zaya Learning Labs</th>
